@@ -28,9 +28,9 @@
   "render_method": "official_renderer",
   "canonical_template_hash_verified": true,
   "canonical_index_sha256": "2d58c61b606d881f5683898782905ef6a1cb2775b4d9a2858a8f8be0b5a95d16",
-  "rendered_index_sha256": "899390a0fa2bb0eb00da13cf3cdf4f0e280a7da82d5430efd6a13283edd2054a",
-  "profile_sha256": "fde78fbfc89b869e482e30d1a05f2e640a8c699a08565ded7af21d3b8ec77143",
-  "bindings_sha256": "891b55fffd558f04af4ecf01538ebabcfdd6e4a280970a474d978ce3f0d13be1",
+  "rendered_index_sha256": "e2304737030d231fac67a4fba26737694e632d7d179fbfdc948535b5a82f6d13",
+  "profile_sha256": "1ae785022f17e9a7b5c2a24dda63b39d3f51a4a44f5d29fbba59f2de8e3b3767",
+  "bindings_sha256": "ffe8e9dc508bc62b07bf7471496ffbe933bcf77732efe26969730555a0937042",
   "custom_page_builder_detected": false,
   "status": "rendered-workbench-still-requires-audit-and-browser-qa"
 }
