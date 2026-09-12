@@ -1,0 +1,36 @@
+{
+  "destination": null,
+  "profile": "/Users/yansiyu/Project/personalized-travel-guide-skill/render-bindings.json",
+  "bindings": "/Users/yansiyu/Project/personalized-travel-guide-skill/render-bindings.json",
+  "rendered_selectors": [
+    "#booking",
+    "#contents",
+    "#food",
+    "#move",
+    "#route",
+    "#shops",
+    "#sights",
+    "#stay",
+    "#tips",
+    "#words",
+    ".flight-band",
+    ".hero",
+    ".mobile-menu-panel",
+    ".trip-pulse",
+    "body > footer"
+  ],
+  "runtime_files": [
+    "trip-mode.js",
+    "itinerary-customizer.js",
+    "checklist-memory.js",
+    "better-interface.css"
+  ],
+  "render_method": "official_renderer",
+  "canonical_template_hash_verified": true,
+  "canonical_index_sha256": "2d58c61b606d881f5683898782905ef6a1cb2775b4d9a2858a8f8be0b5a95d16",
+  "rendered_index_sha256": "235e626ac9332da5d11a2115d5bbe37f739ae21e0cad5ca7b8c5b37711237930",
+  "profile_sha256": "8338a4a25b4a4e08880bb7f7de72b2a21964aaef66029f7d5d8d2b2fa5847332",
+  "bindings_sha256": "8338a4a25b4a4e08880bb7f7de72b2a21964aaef66029f7d5d8d2b2fa5847332",
+  "custom_page_builder_detected": false,
+  "status": "rendered-workbench-still-requires-audit-and-browser-qa"
+}

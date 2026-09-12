@@ -1,0 +1,11 @@
+{
+  "destination": "Perth",
+  "display_name": "Perth",
+  "country": "Australia",
+  "start_date": "2026-09-25",
+  "end_date": "2026-10-05",
+  "days": 11,
+  "travelers": "2",
+  "rhythm": "relaxed",
+  "defaults_authorized": true
+}

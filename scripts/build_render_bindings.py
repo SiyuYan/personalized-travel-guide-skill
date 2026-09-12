@@ -349,7 +349,7 @@ def food(profile: dict, places: dict[str, dict]) -> str:
     if snacks:
         snack_cards = ''.join(
             f'<article class="snack-card"><h3>{e(item.get("local_name") or item.get("name"))}</h3><small>{e(item.get("english_name", ""))}</small>'
-            f'<p>{e(item.get("description"))}</p><dl><div><dt>为什么要试</dt><dd>{e(item.get("why_try"))}</dd></div><div><dt>哪里找</dt><dd>{e(item.get("where_to_find"))}</dd></div></dl></article>'
+            f'<p>{e(item.get("description"))}</p><dl><div><dt>哪天吃</dt><dd>{e(item.get("suggested_day", ""))}</dd></div><div><dt>为什么要试</dt><dd>{e(item.get("why_try"))}</dd></div><div><dt>哪里找</dt><dd>{e(item.get("where_to_find"))}</dd></div></dl></article>'
             for item in snacks
         )
         chapters.append(f'<details class="food-chapter local-snacks"><summary><b>当地小吃推荐</b><i>＋</i></summary><div class="snack-grid">{snack_cards}</div></details>')
@@ -363,7 +363,7 @@ def food(profile: dict, places: dict[str, dict]) -> str:
 
 
 def checklist(items: list, css: str) -> str:
-    rows = ''.join(f'<li><label><input type="checkbox"><span>{index:02d}</span><div><b>{e(item.get("title"))}</b><em>{e(item.get("timing", ""))}</em><small>{e(item.get("note", ""))}</small></div></label></li>' for index, item in enumerate(items, 1))
+    rows = ''.join(f'<li><label><input type="checkbox"><span>{index:02d}</span><div><b>{e(item.get("title") or item.get("item", ""))}</b><em>{e(item.get("timing") or item.get("suggested_day", ""))}</em><small>{e(item.get("note", ""))}</small></div></label></li>' for index, item in enumerate(items, 1))
     return f'<ol class="{css}">{rows}</ol>'
 
 
